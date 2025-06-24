@@ -25,7 +25,7 @@ pip install -e.
 
 There are two instances of Isaac Gym, one for throwing the rollouts and deriving the optimal solution, and one for updating the "real system". Please run the commands below in two terminals with activated python environment.
 
-# Train the model
+### Train the model
 Run this terminal first:
 ````bash
 conda activate m3p2i-aip
@@ -37,7 +37,7 @@ Then run the second terminal:
 conda activate m3p2i-aip
 python train.py
 ````
-# Test the model
+### Test the model
 Run this terminal first:
 ````bash
 conda activate m3p2i-aip
